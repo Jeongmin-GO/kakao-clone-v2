@@ -1,0 +1,35 @@
+.nav {
+    position:fixed; /*width를 설정해줄 것 :: 기존 다른 것들에서 떼어내서 다른 레이어에 올려놓아야 함 */
+    width:100%;
+    background-color : #fcfcfc;
+    padding:20px 50px;
+    left:0px;
+    bottom:0px;
+    border-top:1px solid #f7f7f7;
+    
+}
+.nav .nav__list{
+    display:flex;
+    justify-content:space-between;
+}
+.nav i {
+    font-size : 20px;
+}
+.nav .nav__list-link{
+    position:relative;
+}
+.nav .nav__badge{
+    position: absolute;
+    top: -7px;
+    right:-7px;
+    font-size:12px;
+    color:white;
+    background-color:#dc5d46;
+    width:18px;
+    height:18px;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}

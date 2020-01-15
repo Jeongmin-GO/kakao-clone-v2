@@ -1,0 +1,26 @@
+.header{
+    display :flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom: 30px;
+}
+
+.header__title{
+    font-size:24px;
+    font-weight:600; /*styles.css에서 import되어있는지 확인할 것*/
+}
+
+.header .header__icon{
+    font-size:29px;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+.header .header__header-column{
+    display :flex;
+    align-items :center;
+}
+.header .header__back-btn{
+    font-size:14px;
+    margin-right:20px;
+}
