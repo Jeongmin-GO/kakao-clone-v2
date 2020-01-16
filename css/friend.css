@@ -54,3 +54,15 @@ friend__bottom-text :: chat.html에만 적용*/
 .friend__now-listening span {
     opacity:0.7;
 }
+.friend__now-listening i{
+    font-size:12px;
+}
+
+.friend__add-btn{
+    padding: 10px 15px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#f7f7f7;
+    border-radius:5px;
+}
