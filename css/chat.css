@@ -1,10 +1,3 @@
-/* .chats-body{
-    padding:0;
-}
-.chats-body .header,
-.chats-body .status-bar{
-    padding:0, 20px;
-} */
 .chat-screen{
     background-image: url('../imgs/chatBg.png');
     min-height: 100vh;
@@ -22,7 +15,8 @@
     background-color:#fcfcfc;
     padding: 0 20px;
     border-radius:40px;
-    box-shadow: 0 30px 60px -12px rgba(50,50,93,.25), 0 18px 36px -18px rgba(0,0,0,.3), 0 -12px 36px -8px rgba(0,0,0,.025);
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 .chat__write i{
     font-size:22px;
@@ -62,11 +56,7 @@
 .message {
     display: flex;
     align-items: flex-start;
-    width:50%;
     margin-bottom:20px;
-}
-.message .message__content{
-    width:80%;
 }
 .incoming-message{
     align-self : flex-start;
@@ -81,22 +71,24 @@
 
 }
 .message .message_bubble {
-    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
-      0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+    display: block;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
+      rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
     padding: 10px 20px;
     border-radius: 20px;
   }
  .incoming-message .mesaage__author{
-     margin-bottom:10px;
+     margin-bottom:25px;
      display:block;
      font-weight:700;
      font-size: 14px;
  }
  .incoming-message .message_bubble{
-    background-color: rgb(170, 224, 245);
-     border-bottom-left-radius: 0px;
+    background-image:linear-gradient(to right,#CFDEF3, #C779D0);
+    border-bottom-left-radius: 0px;
  }
  .sent-message .message_bubble{
-     background-color: rgb(205, 248, 126);
+     background-color: #CFDEF3;
      border-bottom-right-radius:0px;
  }
