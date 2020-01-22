@@ -152,3 +152,31 @@
      background-color: #CFDEF3;
      border-bottom-right-radius:0px;
  }
+
+
+ @keyframes incomingAnim{
+     from{
+         opacity:0;
+         transform : translateX(-200px);
+     }
+     to{
+         opacity:1;
+         transform : none;
+     }
+ }
+ .incoming-message{
+     animation:incomingAnim .5s ease-out forwards;
+ }
+ @keyframes sentAnimation{
+    from{
+        opacity:0;
+        transform : translateX(200px);
+    }
+    to{
+        opacity:1;
+        transform : none;
+    }
+ }
+ .sent-message{
+     animation: sentAnimation .5s ease-out forwards;
+ }
