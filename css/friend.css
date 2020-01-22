@@ -3,6 +3,9 @@
     justify-content: space-between;
     align-items: center;
 }
+.friend.friend{
+    margin-bottom:20px;
+}
 .friend .friend__avatar{
     width : 50px;
     border-radius : 38%;
@@ -13,9 +16,35 @@
 .friend__avatar.m-avatar{
     width : 60px;
 }
+.friend__avatar_a{
+    width:30px;
+    border-radius:38%;
+}
+.front-avatar{
+    margin-right:15px;
+}
 .friend .friend__column{
     display:flex;
     align-items: center;
+}
+.friend__column .chat__timestamp{
+    display:block;
+    margin-bottom:10px;
+}
+.friend__column .chat__badge{
+    float:right;
+    top: -7px;
+    right:-7px;
+    font-size:12px;
+    color:white;
+    background-color:#dc5d46;
+    width:18px;
+    height:18px;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 .friend .friend__avatar{
     margin-right : 15px;

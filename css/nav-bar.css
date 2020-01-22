@@ -46,3 +46,16 @@
     animation: showNavBar .5s ease-out forwards;
     animation-delay: .5s;
 }
+
+@keyframes spinbadge{
+    from{
+        transform: none;
+    }
+    to{
+        transform :rotateY(2turn);
+    }
+}
+.nav .nav__badge{
+    animation: spinbadge .5s ease-in-out;
+    animation-delay:1s;
+}
